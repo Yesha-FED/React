@@ -1,0 +1,11 @@
+PROPS : short form of properties 
+
+which is used to transfer properties one component to another component.
+
+props pass in key and value pair.
+
+props are immutable - we can't change it value 
+
+if we really want change props value we have to store in localstate 
+
+state is a mutable and props is a immutable.

@@ -1,0 +1,47 @@
+Hook : hook is a special function.
+    which is control life cycle of function components 
+
+1) useState() : to manage local state. 
+
+2) useEffect() : useEffect is a special hook which is control side effect of function 
+    components.
+
+    which is execute at specific dependency.
+
+    mainly use of useEffect intially call once all components render ,
+    fetch data from api and many more.
+
+    -> useEffect with no dependency array: it execute everytime     
+
+        useEffect(()=>{
+
+        });
+
+    -> useEffect with no dependency : it will execute only 1st time on component render 
+
+        useEffect(()=>{
+
+        },[]);  // no dependency 
+
+    -> useEffect with dependency : it will execute whenever specific event occur.
+
+        useEffect(()=>{
+
+        },[dependency])
+        
+
+3) useContext() : useContext which is manage global state in entire application.
+
+    using of useContext we can transfer data in same component tree 
+                                APP 
+                                |
+        ----------------------------------------------------
+        |                           |                       |
+        V                           V                       V
+        Com1                       Comp101                  Comp501
+        |                               |                   |
+        V                               V                   V
+        Com2                        Comp102                 Comp502
+        |                               |
+        V      `                         V
+        Com3                        Comp103

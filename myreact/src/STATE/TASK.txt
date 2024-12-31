@@ -1,0 +1,4 @@
+1) accept number from user and find out is it even or odd value
+2) accept name from user and convert it into lowercase , uppercase , calculate length and capitilize
+3) accept number from user and check enter number is existing in list or not 
+

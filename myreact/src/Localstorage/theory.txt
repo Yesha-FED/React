@@ -1,0 +1,6 @@
+session storage : session storage which is temporary storage in browser 
+    whenver we close tab it clear storage 
+
+local storage : which is store record for long time . 
+    it will clear storage whenever we manually clear it.
+
